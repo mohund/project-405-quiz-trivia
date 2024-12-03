@@ -26,7 +26,7 @@ Simply click the link and start enjoying the quiz!
 ### Home Page
 ![Home Page](homepage.png)
 
-###Settings
+### Settings
 ![Quiz Settings](settings.png)
 
 ### Quiz in Progress
