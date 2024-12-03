@@ -11,6 +11,7 @@ const App = () => {
         <nav className="navbar">
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
+          {/* sdasdsas */}
         </nav>
 
         <Routes>
