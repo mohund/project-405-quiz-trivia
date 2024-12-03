@@ -1,24 +1,24 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, Link, Navigate } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./component/Home";
 import Quiz from "./component/Quiz";
 import About from "./component/About";
+import NotFound from "./component/NotFound";
 
 const App = () => {
   return (
     <Router>
       <div>
         <nav className="navbar">
-          <Link to="/home">Home</Link>
-          <Link to="/about">About</Link>
+          <a href="/">Home</a>
+          <a href="#/about">About</a>
+          <a href="#/quiz">Quiz</a>
         </nav>
-
         <Routes>
-          {/* Redirect base path "/" to "/home" */}
-          <Route path="/" element={<Navigate to="/home" replace />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/quiz" element={<Quiz />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </Router>
