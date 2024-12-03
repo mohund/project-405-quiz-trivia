@@ -1,6 +1,6 @@
-# Project 405 Quiz Trivia
+# Trivia Quiz Application 
 
-Welcome to the **Project 405 Quiz Trivia**! This is a React-based trivia application where users can answer quiz questions and see their results. The project demonstrates a modular and responsive web application built with React.
+Welcome to the **Quizzes Trivia Application**! This is a React-based trivia application where users can answer quiz questions and see their results. The project demonstrates a modular and responsive web application built with React.
 
 ---
 
